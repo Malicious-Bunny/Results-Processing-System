@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LecturerFillResults</class>
+ <widget class="QWidget" name="LecturerFillResults">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1114</width>
+    <height>866</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Hack Nerd Font</family>
+    <pointsize>12</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Lecturer View</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../Icons/resources.qrc">
+    <normaloff>:/resources/ict-university-461753.jpg</normaloff>:/resources/ict-university-461753.jpg</iconset>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>20</y>
+     <width>171</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Sans Serif</family>
+     <pointsize>12</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Welcome Lecturer</string>
+   </property>
+  </widget>
+  <widget class="QScrollArea" name="scrollArea">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>90</y>
+     <width>1101</width>
+     <height>521</height>
+    </rect>
+   </property>
+   <property name="widgetResizable">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="scrollAreaWidgetContents">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1099</width>
+      <height>519</height>
+     </rect>
+    </property>
+    <widget class="QScrollBar" name="verticalScrollBar">
+     <property name="geometry">
+      <rect>
+       <x>1080</x>
+       <y>0</y>
+       <width>21</width>
+       <height>521</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="StudentFillLecturer">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1081</width>
+       <height>521</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="PublishLecturer">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>650</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Publish</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="LogOutLecturer">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>800</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Log Out</string>
+   </property>
+  </widget>
+  <widget class="QCommandLinkButton" name="PublishLecturerSuccess">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>720</y>
+     <width>168</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Published</string>
+   </property>
+   <property name="icon">
+    <iconset resource="../Icons/resources.qrc">
+     <normaloff>:/resources/check.png</normaloff>:/resources/check.png</iconset>
+   </property>
+  </widget>
+  <widget class="QCommandLinkButton" name="PublishLecturereFailed">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>720</y>
+     <width>168</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Failed</string>
+   </property>
+   <property name="icon">
+    <iconset resource="../Icons/resources.qrc">
+     <normaloff>:/resources/close.png</normaloff>:/resources/close.png</iconset>
+   </property>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>650</y>
+     <width>361</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>Select Course:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="SelectCourseCombo"/>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../Icons/resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

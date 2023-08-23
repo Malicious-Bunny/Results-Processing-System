@@ -1,0 +1,14 @@
+<RCC>
+  <qresource prefix="resources">
+    <file>add-user.png</file>
+    <file>check.png</file>
+    <file>close.png</file>
+    <file>ict-university-461753.jpg</file>
+    <file>user.png</file>
+    <file>vibrent_1.png</file>
+    <file>vibrent_2.png</file>
+    <file>vibrent_21.png</file>
+    <file>vibrent_5.png</file>
+    <file>vibrent_8.png</file>
+  </qresource>
+</RCC>

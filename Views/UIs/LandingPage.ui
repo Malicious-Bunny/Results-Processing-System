@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LandingPage_2</class>
+ <widget class="QWidget" name="LandingPage_2">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1304</width>
+    <height>807</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../Icons/resources.qrc">
+    <normaloff>:/resources/ict-university-461753.jpg</normaloff>:/resources/ict-university-461753.jpg</iconset>
+  </property>
+  <widget class="QStackedWidget" name="LandingPage">
+   <property name="geometry">
+    <rect>
+     <x>-1</x>
+     <y>-1</y>
+     <width>1341</width>
+     <height>811</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(x1:3, y1:0, x2:0, y2:0, stop:0 #E57352, stop:1 #240C4A);
+color:white;
+</string>
+   </property>
+   <widget class="QWidget" name="page">
+    <widget class="Line" name="line">
+     <property name="geometry">
+      <rect>
+       <x>660</x>
+       <y>320</y>
+       <width>118</width>
+       <height>3</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:white;</string>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>640</x>
+       <y>580</y>
+       <width>91</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Hack Nerd Font</family>
+       <pointsize>13</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+border:none;
+
+background-color:none;</string>
+     </property>
+     <property name="text">
+      <string>Lecturer</string>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="StudentLanding">
+     <property name="geometry">
+      <rect>
+       <x>360</x>
+       <y>400</y>
+       <width>161</width>
+       <height>151</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius:50%;
+
+border:none;
+
+background-color:none;
+
+</string>
+     </property>
+     <property name="text">
+      <string>Student</string>
+     </property>
+     <property name="icon">
+      <iconset resource="../Icons/resources.qrc">
+       <normaloff>:/resources/vibrent_21.png</normaloff>:/resources/vibrent_21.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>300</width>
+       <height>300</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="LecturerLanding">
+     <property name="geometry">
+      <rect>
+       <x>600</x>
+       <y>400</y>
+       <width>161</width>
+       <height>151</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius:50%;
+
+
+border:none;
+
+background-color:none;</string>
+     </property>
+     <property name="text">
+      <string>Lecturer</string>
+     </property>
+     <property name="icon">
+      <iconset resource="../Icons/resources.qrc">
+       <normaloff>:/resources/vibrent_1.png</normaloff>:/resources/vibrent_1.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>300</width>
+       <height>300</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>610</x>
+       <y>750</y>
+       <width>151</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Hack Nerd Font</family>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+border:none;
+
+background-color:none;</string>
+     </property>
+     <property name="text">
+      <string>MaliciousBunny © </string>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="AdminLanding">
+     <property name="geometry">
+      <rect>
+       <x>820</x>
+       <y>400</y>
+       <width>161</width>
+       <height>151</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius:50%;
+
+border:none;
+
+background-color:none;</string>
+     </property>
+     <property name="text">
+      <string>Admin</string>
+     </property>
+     <property name="icon">
+      <iconset resource="../Icons/resources.qrc">
+       <normaloff>:/resources/vibrent_8.png</normaloff>:/resources/vibrent_8.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>300</width>
+       <height>300</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>560</x>
+       <y>240</y>
+       <width>301</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Hack Nerd Font</family>
+       <pointsize>18</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-weight:100px;
+
+border:none;
+
+background-color:none;</string>
+     </property>
+     <property name="text">
+      <string>Choose Access Mode:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>441</width>
+       <height>201</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:#240C4A;
+border: 3px solid #4B4453</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="../Icons/resources.qrc">:/resources/ict-university-461753.jpg</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>880</x>
+       <y>580</y>
+       <width>54</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Hack Nerd Font</family>
+       <pointsize>13</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+border:none;
+
+background-color:none;</string>
+     </property>
+     <property name="text">
+      <string>Admin</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>410</x>
+       <y>580</y>
+       <width>71</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Hack Nerd Font</family>
+       <pointsize>13</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+border:none;
+
+background-color:none;</string>
+     </property>
+     <property name="text">
+      <string>Student</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_2"/>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../Icons/resources.qrc"/>
+  <include location="../../../../../Icons/resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
